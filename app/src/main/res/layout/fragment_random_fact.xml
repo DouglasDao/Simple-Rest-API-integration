@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/randomContainer"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fact.view.fragment.RandomFactFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/rand_facts"
+            android:textSize="@dimen/sp_22"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/sp_select_category"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp32"
+            android:layout_margin="@dimen/dp60"
+            android:background="@drawable/spinner_outline_shape"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/rand_fact_response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bt_fetch_rand_fact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp8"
+            android:layout_marginTop="@dimen/dp40"
+            android:background="@drawable/button"
+            android:ems="12"
+            android:text="@string/get_rand" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

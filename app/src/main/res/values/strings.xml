@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FactAboutNumbers</string>
+    <string name="app_title">Fact About Numbers</string>
+    <string name="rand_facts">Random Facts</string>
+    <string name="quest_facts">Quest Facts</string>
+    <string name="get_rand">Get Random Fact</string>
+    <string name="get_specific">Get Specific Fact</string>
+    <string name="select_category">Please Select Category</string>
+    <string-array name="categories">
+        <item>Trivia</item>
+        <item>Math</item>
+        <item>Date</item>
+        <item>Year</item>
+    </string-array>
+    <string name="input">Enter Input</string>
+    <string name="inputDate">Select Date</string>
+    <string name="digit">Digit</string>
+    <string name="date">Date</string>
+</resources>
