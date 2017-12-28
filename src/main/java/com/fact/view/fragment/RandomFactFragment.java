@@ -27,6 +27,11 @@ public class RandomFactFragment extends BaseFragment implements IRandomFragmentV
     @BindView(R.id.sp_select_category)
     Spinner spCategory;
 
+    /**
+     *  Passing controls to presenter to perform app logic
+     * */
+
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
